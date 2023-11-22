@@ -1,6 +1,7 @@
 # cncode
 
 
+https://www.geeksforgeeks.org/writing-power-function-for-large-numbers/
 https://www.bearssl.org/bigint.html
 
 ## Contributing
