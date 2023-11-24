@@ -1,5 +1,9 @@
 # cncode
 
+https://www.kdnuggets.com/how-to-write-efficient-python-code-a-tutorial-for-beginners
+
+https://www.kdnuggets.com/how-to-write-efficient-python-code-a-tutorial-for-beginners
+
 
 https://www.geeksforgeeks.org/writing-power-function-for-large-numbers/
 https://www.bearssl.org/bigint.html
