@@ -13,12 +13,15 @@ cmd = ''
 while cmd != 'X':    
     match input().split():
         case ['E', s_id]:
-            if len(lines) == 0:
+            s_id = int(s_id)
+            if len(lines) != 0:
+                pass
+            else:
                 lines.append(s_id)
-                if s_id not in dline:
-                    dline[s_id] = 1
+                if registration[s_id] not in dline:
+                    dline[registration[s_id]] = 1
                 else:
-                    dline[s_id] += 1
+                    dline[registration[s_id]] += 1
         case ['D']:
             if len(lines) == 0:
                 print("empty")
