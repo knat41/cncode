@@ -5,10 +5,10 @@ input 1 หรือ 2 ตัว ที่ให้ output 1 ตัว เช่
 - การหาพื้นที่รูปสี่เหลี่ยม
 - การหาพื้นที่รูปสามเหลี่ยม
 
-
-https://drop-project-edu.github.io/drop-project/
-https://pc2ccs.github.io/current/
-https://mooshak.dcc.fc.up.pt/
+## รวมของ
+* https://drop-project-edu.github.io/drop-project/
+* https://pc2ccs.github.io/current/
+* https://mooshak.dcc.fc.up.pt/
 
 
 ## Contributing
