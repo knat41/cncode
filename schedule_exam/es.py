@@ -2,6 +2,16 @@ import json
 import csv
 from datetime import datetime, time
 
+class Teacher:
+    def __init__(self, first_name, last_name, department, teacher_id):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.department = department
+        self.teacher_id = teacher_id
+
+    def __str__(self):
+        return f"Teacher ID: {self.teacher_id}, Name: {self.first_name} {self.last_name}, Department: {self.department}"
+
 class ExamRoom:
     def __init__(self, room, supervisor, location):
         self.room = room
