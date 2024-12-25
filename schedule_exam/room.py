@@ -46,7 +46,9 @@ junior_types = {
     1: "Gifted",
     2: "Top Star",
     3: "Top Star",
-    **{i: "Regular" for i in range(4, 16)}
+    **{i: "Regular" for i in range(4, 16)},
+    16: "EP",
+    17: "EP"
 }
 
 senior_types = {
@@ -59,7 +61,9 @@ senior_types = {
     12: "Chinese",
     13: "Japanese",
     14: "Japanese",
-    15: "French/Korean"
+    15: "French/Korean",
+    16: "EP",
+    17: "EP"
 }
 
 # เพิ่มข้อมูลระดับชั้น ม.1 - ม.6
