@@ -8,13 +8,36 @@ class Teacher:
 
 
 class Subject:
-    def __init__(self, name, students, teacher):
+    def __init__(self, code, name, duration, exam_time, exam_rooms):
+        """
+        :param code: รหัสวิชา เช่น "ว31102"
+        :param name: ชื่อวิชา เช่น "คณิตศาสตร์พื้นฐาน"
+        :param duration: จำนวนเวลาสอบในนาที เช่น 60
+        :param exam_time: ช่วงเวลาสอบ เช่น "8:30-9:30"
+        :param exam_rooms: รายชื่อนักเรียนห้องที่สอบ เช่น ["4/1", "4/2", ..., "4/17"]
+        """
+        self.code = code
         self.name = name
-        self.students = students
-        self.teacher = teacher
+        self.duration = duration
+        self.exam_time = exam_time
+        self.exam_rooms = exam_rooms
 
     def __str__(self):
-        return f"Subject: {self.name}, Students: {self.students}, Supervisor: {self.teacher.name}"
+        return (f"Subject Code: {self.code}, Name: {self.name}, Duration: {self.duration} minutes, "
+                f"Exam Time: {self.exam_time}, Exam Rooms: {', '.join(self.exam_rooms)}")
+
+
+# ตัวอย่างการใช้งาน
+subject1 = Subject(
+    code="ว31102",
+    name="คณิตศาสตร์พื้นฐาน",
+    duration=60,
+    exam_time="8:30-9:30",
+    exam_rooms=[f"4/{i}" for i in range(1, 18)]
+)
+
+print(subject1)
+
 
 
 class Room:
