@@ -8,6 +8,10 @@ https://www.kdnuggets.com/how-to-write-efficient-python-code-a-tutorial-for-begi
 https://www.geeksforgeeks.org/writing-power-function-for-large-numbers/
 https://www.bearssl.org/bigint.html
 
+# Style Guide for Python Code
+* [PEP 8](https://peps.python.org/pep-0008/#tabs-or-spaces)
+* [compare tool](https://medium.com/better-programming/simple-hacks-to-automate-python-code-beautification-5ad934cf5a29)
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
